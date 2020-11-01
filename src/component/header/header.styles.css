@@ -1,0 +1,52 @@
+.header {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+  
+  }
+
+  .options {
+    margin: auto;
+    margin-top: 20px;
+    width: 15%;
+    height: 100%;
+    display: flex;
+  }
+  .option1:hover {
+      background-color: lightgray;
+    transform: scale(1.05);
+    transition: transform 0.25s ease-out;
+  }
+  .option2:hover {
+    background-color: lightgray;
+    transform: scale(1.05);
+    transition: transform 0.25s ease-out;
+  }
+
+  .option1 {
+    color: black;
+    text-decoration: none;
+      margin: auto;
+    padding: 10px 15px;
+    border: 1px solid black;
+  }
+  .option2 {
+    color: black;
+    text-decoration: none;
+    margin: auto;
+  padding: 10px 15px;
+  border: 1px solid black;
+}
+
+.inactive {
+  color: #fff;
+  text-decoration: none;
+}
+
+.active {
+background-color: lightgray;
+  text-decoration: none;
+}
+
